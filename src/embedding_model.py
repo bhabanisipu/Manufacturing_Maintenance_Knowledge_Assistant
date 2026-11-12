@@ -6,8 +6,7 @@ def get_embedding_model():
 
     try:
         embedding_model = OllamaEmbeddings(
-            model="all-minilm",
-            base_url="http://127.0.0.1:11434"
+            model="all-minilm"
         )
 
         # Test the embedding model
